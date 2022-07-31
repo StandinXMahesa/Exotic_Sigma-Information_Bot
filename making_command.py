@@ -8,7 +8,7 @@ from PIL import Image
 load_dotenv()
 
 # bot
-API_KEY = os.getenv('5451254812:AAHx44hV-75GDAAtaJJc68oeuHcsyOa7bl0')
+API_KEY = "5451254812:AAHx44hV-75GDAAtaJJc68oeuHcsyOa7bl0"
 bot = telebot.TeleBot(API_KEY)
 
 
