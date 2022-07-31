@@ -323,4 +323,4 @@ def murinus(message):
 def salah(message):
     bot.send_message(message.chat.id,"Pesan yang anda kirim tidak ada")
 
-bot.infinity_polling()
+bot.polling(none_stop=True)
