@@ -1,12 +1,6 @@
-from email import message
-from gc import callbacks
-from imaplib import Commands
-from logging import exception
 import os
-from click import command
 import telebot
 from dotenv import load_dotenv
-from telebot.types import InlineKeyboardButton, InlineKeyboardMarkup
 from data_txt import *
 from PIL import Image
 
