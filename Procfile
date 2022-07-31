@@ -1,1 +1,1 @@
-worker: python making_command.py
+bot: python making_command.py
