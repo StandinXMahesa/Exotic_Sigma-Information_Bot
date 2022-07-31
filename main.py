@@ -1,11 +1,12 @@
-import os
+# import os
+import time
 import telebot
 from dotenv import load_dotenv
 from data_txt import *
 from PIL import Image
 
 # Load Env
-load_dotenv()
+# load_dotenv()
 
 # bot
 API_KEY = "5451254812:AAHx44hV-75GDAAtaJJc68oeuHcsyOa7bl0"
@@ -323,4 +324,8 @@ def murinus(message):
 def salah(message):
     bot.send_message(message.chat.id,"Pesan yang anda kirim tidak ada")
 
-bot.polling(none_stop=True)
+while True:
+    try:
+        bot.polling(none_stop=True)
+    except Exception:
+        time.sleep(15)

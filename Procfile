@@ -1,1 +1,1 @@
-bot: python making_command.py
+web: python main.py
