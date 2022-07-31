@@ -1,1 +1,1 @@
-web: python making_command.py
+worker: python making_command.py
